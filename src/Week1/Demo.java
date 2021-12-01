@@ -27,9 +27,9 @@ public class Demo {
     }
     public static boolean isTriangle(double a, double b, double c){
         if ((a + b > c)&&
-                (a + a > b) &&
-                (b + c > a)){
-            return true;
+            (a + c > b) &&
+            (b + c > a)){
+                return true;
         }
         return false;
     }
