@@ -65,5 +65,5 @@ public class DemoTest {
     public void test_is_NOT_triangle_7(){
         assertFalse(Demo.isTriangle(1, 2, -1));
     }
-    
+
 }
